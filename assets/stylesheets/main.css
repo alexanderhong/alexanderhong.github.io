@@ -70,7 +70,7 @@ body{
     text-transform: uppercase;
 }
 .logo {
-    border-top: 4px solid #648880;
+    border-top: 4px solid #648388;
     float: left;
     font-size: 48px;
     font-weight: 300;
@@ -120,7 +120,7 @@ body{
     vertical-align: top;
 }
 .primary-footer {
-    color: #648880;
+    color: #648388;
     font-size: 14px;
     padding-bottom: 44px;
     padding-top: 44px;
@@ -225,7 +225,7 @@ h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
 h1, h2, h3, h4 {
-    color: #648880;
+    color: #648388;
 }
 .description h2 {
     font-size: 36px;
@@ -238,6 +238,6 @@ em {
     font-style: italic;
 }
 a {
-    color: #648880;
+    color: #648388;
     text-decoration: none;
 }
