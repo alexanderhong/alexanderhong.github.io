@@ -22,6 +22,11 @@ table{border-collapse:collapse;border-spacing:0;}
 *,
 *:before,
 *:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 body{color:#aaaaad;font:300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 .nav{text-align:right;}
 .primary-nav{font-size:14px;font-weight:400;letter-spacing:.5px;text-transform:uppercase;}
@@ -49,8 +54,12 @@ body{color:#aaaaad;font:300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Hel
 .fullrow{float:left;width:100%;}
 .column{float:left;width:50%;}
 .row:after{content:"";display:table;clear:both;}
-.content{padding:10px;transition:all .2s ease;}
-.content .caption{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);display:none;}
+.content{height: auto; width: auto; padding:10px;}
+.content:hover .caption{opacity: 1;}
+.content .caption{position: relative;
+    margin: 0 auto;
+    opacity: 0;
+    transition: all 0.5s ease;}
 @media screen and (max-width:900px){.column{width:50%;}
 }
 @media screen and (max-width:600px){.column{width:100%;}
@@ -63,5 +72,12 @@ h1, h3, h4, h5, p{margin-bottom:22px;}
 h1, h2, h3, h4{color:#779aa0;}
 .description h2{font-size:36px;}
 .description p{line-height:20pt;}
+.caption h5 {
+        position: absolute;
+        color: #fff;
+        top: 33%;
+        width: 100%;
+        text-align: center;
+    }
 em{font-style:italic;}
 a{color:#779aa0;text-decoration:none;}
