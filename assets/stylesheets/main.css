@@ -22,7 +22,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    background-color: #252628;
+    background-color: #3a3c3f;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -57,7 +57,7 @@ table {
 }
 
 body{
-    color: #888;
+    color: #aaaaad;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .nav {
@@ -70,7 +70,7 @@ body{
     text-transform: uppercase;
 }
 .logo {
-    border-top: 4px solid #648388;
+    border-top: 4px solid #779aa0;
     float: left;
     font-size: 48px;
     font-weight: 300;
@@ -120,7 +120,7 @@ body{
     vertical-align: top;
 }
 .primary-footer {
-    color: #648388;
+    color: #779aa0;
     font-size: 14px;
     padding-bottom: 44px;
     padding-top: 44px;
@@ -216,7 +216,7 @@ h3 {
     font-size: 21px;
 }
 h5 {
-    color: #a9b2b9;
+    color: #aaaaad;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -225,7 +225,7 @@ h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
 h1, h2, h3, h4 {
-    color: #648388;
+    color: #779aa0;
 }
 .description h2 {
     font-size: 36px;
@@ -238,6 +238,6 @@ em {
     font-style: italic;
 }
 a {
-    color: #648388;
+    color: #779aa0;
     text-decoration: none;
 }
