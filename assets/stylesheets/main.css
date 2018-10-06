@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0 | 20110126
-License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -15,227 +10,58 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    background-color: #3a3c3f;
-}
-/* HTML5 display-role reset for older browsers */
+time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;background-color:#3a3c3f;}
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
+footer, header, hgroup, menu, nav, section{display:block;}
+body{line-height:1;}
+ol, ul{list-style:none;}
+blockquote, q{quotes:none;}
 blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
+q:before, q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
 *,
 *:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body{
-    color: #aaaaad;
-    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.nav {
-    text-align: right;
-}
-.primary-nav {
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: .5px;
-    text-transform: uppercase;
-}
-.logo {
-    border-top: 4px solid #779aa0;
-    float: left;
-    font-size: 48px;
-    font-weight: 300;
-    letter-spacing: .5px;
-    line-height: 50px;
-    padding: 40px 0 22px;
-    text-transform: uppercase;
-}
-.tagline {
-    margin: 66px 0 22px;
-    text-align: right;
-}
-.container {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.container, .grid {
-    margin: 0 auto;
-    width: 960px;
-}
-.description {
-    /*line-height: 44px;*/
-    padding: 22px 80px 66px;
-    text-align: left;
-}
-.desctext, .profile {
-    display: inline-block;
-    vertical-align: top;
-}
-.desctext {
-    float: right;
-    width: 66%;
-}
-.profile {
-    float: left;
-    width: 250px;
-}
-.grid, .col-1-3, .col-2-3 {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.col-1-3 {
-    width: 33.1%;
-}
-.col-1-3, .col-2-3 {
-    display: inline-block;
-    vertical-align: top;
-}
-.primary-footer {
-    color: #779aa0;
-    font-size: 14px;
-    padding-bottom: 44px;
-    padding-top: 44px;
-}
-.primary-footer small {
-    float: left;
-    font-weight: 400;
-}
-
+*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+body{color:#aaaaad;font:300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.nav{text-align:right;}
+.primary-nav{font-size:14px;font-weight:400;letter-spacing:.5px;text-transform:uppercase;}
+.logo{border-top:4px solid #779aa0;float:left;font-size:48px;font-weight:300;letter-spacing:.5px;line-height:50px;padding:40px 0 22px;text-transform:uppercase;}
+.tagline{margin:66px 0 22px;text-align:right;}
+.container{padding-left:30px;padding-right:30px;}
+.container, .grid{margin:0 auto;width:960px;}
+.description{padding:22px 80px 66px;text-align:left;}
+.desctext, .profile{display:inline-block;vertical-align:top;}
+.desctext{float:right;width:66%;}
+.profile{float:left;width:250px;}
+.grid, .col-1-3, .col-2-3{padding-left:15px;padding-right:15px;}
+.col-1-3{width:33.1%;}
+.col-1-3, .col-2-3{display:inline-block;vertical-align:top;}
+.primary-footer{color:#779aa0;font-size:14px;padding-bottom:44px;padding-top:44px;}
+.primary-footer small{float:left;font-weight:400;}
 .group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
-
-/* Portfolio website */
-.main {
-    max-width: 1000px;
-    margin: auto;
-}
-.row {
-    margin: 8px -16px;
-}
-/* Add padding BETWEEN each column (if you want) */
+.group:after{content:"";display:table;}
+.group:after{clear:both;}
+.group{clear:both;*zoom:1;}
+.main{max-width:1000px;margin:auto;}
+.row{margin:8px -16px;}
 .row,
-.row > .column {
-    padding: 1px;
+.row > .column{padding:1px;}
+.fullrow{float:left;width:100%;}
+.column{float:left;width:50%;}
+.row:after{content:"";display:table;clear:both;}
+.content{padding:10px;transition:all .2s ease;}
+.content .caption{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);display:none;}
+@media screen and (max-width:900px){.column{width:50%;}
 }
-.fullrow {
-    float:left;
-    width:100%;
+@media screen and (max-width:600px){.column{width:100%;}
 }
-.column {
-    float: left;
-    width: 50%;
-}
-/* Clear floats after rows */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* Content */
-.content {
-    padding: 10px;
-    transition: all .2s ease;
-}
-
-.content .caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-/*
-  ========================================
-  Typography
-  ========================================
-*/
-h1 {
-    font-size: 36px;
-    line-height: 44px;
-}
-h2 {
-    font-size: 24px;
-    line-height: 44px;
-}
-h3 {
-    font-size: 21px;
-}
-h5 {
-    color: #aaaaad;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-h1, h3, h4, h5, p {
-  margin-bottom: 22px;
-}
-h1, h2, h3, h4 {
-    color: #779aa0;
-}
-.description h2 {
-    font-size: 36px;
-}
-.description p {
-    line-height: 20pt;
-}
-
-em {
-    font-style: italic;
-}
-a {
-    color: #779aa0;
-    text-decoration: none;
-}
+h1{font-size:36px;line-height:44px;}
+h2{font-size:24px;line-height:44px;}
+h3{font-size:21px;}
+h5{color:#aaaaad;font-size:14px;font-weight:400;text-transform:uppercase;}
+h1, h3, h4, h5, p{margin-bottom:22px;}
+h1, h2, h3, h4{color:#779aa0;}
+.description h2{font-size:36px;}
+.description p{line-height:20pt;}
+em{font-style:italic;}
+a{color:#779aa0;text-decoration:none;}
