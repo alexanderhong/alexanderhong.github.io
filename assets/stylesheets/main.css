@@ -44,6 +44,7 @@ body{color:#aaaaad;font:300 16px/22px "Lato", "Ubuntu Mono", "Open Sans", "Helve
 .desctext, .profile{display:inline-block;vertical-align:top;}
 .desctext{float:right;width:66%;}
 .codewrap{margin: 0 auto; width:100%}
+.codewrap:hover {transform: scaleX(1.025) scaleY(1.025); transition: all 0.5s ease;}
 .codewrap:hover + .codebox{
     height: 350px;
     transition-property: all;
@@ -53,8 +54,8 @@ body{color:#aaaaad;font:300 16px/22px "Lato", "Ubuntu Mono", "Open Sans", "Helve
     transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
     -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 
-    transition: opacity 0.3s ease;
-    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
     opacity: 1;
 }
 .codebox {
