@@ -1,0 +1,24 @@
+.codewrap{width:100%}
+.codewrap:hover {transform: scaleX(.9) scaleY(.9); transition: all 0.5s ease;}
+.codewrap:hover + .codebox{
+    transition: opacity, height 0.5s ease;
+    -webkit-transition: opacity, height 0.5s ease;
+    height: 350px;
+    opacity: 1;
+}
+.codebox {
+    transition: opacity, height 0.3s ease;
+    -webkit-transition: opacity, height 0.3s ease;
+    height: 0px;
+    opacity: 0;
+    pointer-events:none;
+}
+.codebox .side{
+    padding-right:0px;
+    width: auto;
+    color: #4b5364;
+}
+.codebox .code{
+    padding-left: 15px;
+    width: 90%
+}
