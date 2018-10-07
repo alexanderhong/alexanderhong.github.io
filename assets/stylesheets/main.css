@@ -94,6 +94,8 @@ body{color:#aaaaad;font:300 16px/22px "Lato", "Ubuntu Mono", "Open Sans", "Helve
 .grid, .col-1-3, .col-2-3{padding-left:15px;padding-right:15px;}
 .col-1-3{width:33.1%;}
 .col-1-3, .col-2-3{display:inline-block;vertical-align:top;}
+@media screen and (max-width:1000px){.col-1-3{width:100%;}
+}
 .primary-footer{color:#779aa0;font-size:14px;padding-bottom:44px;padding-top:44px;}
 .primary-footer small{float:left;font-weight:400;}
 .group:before,
@@ -108,7 +110,7 @@ body{color:#aaaaad;font:300 16px/22px "Lato", "Ubuntu Mono", "Open Sans", "Helve
 .column{float:left;width:50%;}
 .row:after{content:"";display:table;clear:both;}
 .content{height: auto; width: auto; padding:12px;}
-.content:hover {transform: scaleX(1.05) scaleY(1.05); transition: all 0.5s ease;}
+.content:hover {transform: scaleX(1.025) scaleY(1.025); transition: all 0.5s ease;}
 .content:hover .caption{opacity: 1;}
 .content .caption{position: relative;
     margin: 0 auto;
