@@ -43,6 +43,7 @@ body{color:#aaaaad;font:300 16px/22px "Lato", "Ubuntu Mono", "Open Sans", "Helve
 @media screen and (max-width:1000px){.description{float: below; padding: 30px; text-align: right;}}
 .desctext, .profile{display:inline-block;vertical-align:top;}
 .desctext{float:right;width:66%;}
+.codewrap{margin: 0 auto; width:100%}
 .codewrap:hover + .codebox{
     height: 350px;
     transition-property: all;
