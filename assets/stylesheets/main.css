@@ -44,17 +44,30 @@ body{color:#aaaaad;font:300 16px/22px "Lato", "Ubuntu Mono", "Open Sans", "Helve
 .desctext, .profile{display:inline-block;vertical-align:top;}
 .desctext{float:right;width:66%;}
 .codewrap:hover .codebox{
-    height: 300px; opacity: 1;
+    height: 350px;
     transition-property: all;
     transition-duration: .5s;
     transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
+.codewrap:hover .codebox {
+    opacity: 1;
+    transition-property: all;
+    transition-delay: .25s;
+    transition-duration: .25s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
 .codebox {
     padding-top: 10px;
-    height: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 0px;
     opacity: 0;
+    transition-property: all;
+    transition-duration: .25s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 .codebox .side{
+    height: 0px;
     display:inline-block;
     vertical-align:top;
     padding-right:0px;
@@ -62,6 +75,7 @@ body{color:#aaaaad;font:300 16px/22px "Lato", "Ubuntu Mono", "Open Sans", "Helve
     height: auto;
 }
 .codebox .code{
+    height: 0px;
     padding-left: 10px;
     vertical-align:top;
     display:inline-block;
