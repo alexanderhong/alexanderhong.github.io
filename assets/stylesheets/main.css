@@ -46,11 +46,15 @@ table{
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 }
-@media screen and (min-width: 960px) {
-	html {
+@media screen and (min-width: 1000px) {
+	body {
 		margin-left: calc(100vw - 100%);
 		margin-right: 0;
 	}
+    .recolor {
+        margin-left:0;
+        margin-right:0;
+    }
 }
 /* #21252b */
 body{
@@ -272,7 +276,7 @@ body{
 		font-size:12px;
 	}
 }
-.recolor, .recolor * {
+.recolor, .recolor *{
     background-color: #37383d;
 }
 /*Typography*/
