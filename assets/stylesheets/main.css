@@ -245,9 +245,7 @@ body{
 		text-align:center;
 	}
 	.description .side{
-		opacity:0;
-        height:0px;
-		width:0px;
+		visibility:hidden;
 	}
     .description .desctext{
         width:100%;
