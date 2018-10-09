@@ -156,13 +156,13 @@ body{
     height: 0;
     pointer-events:none;
 	opacity: 0;
-    transition: opacity, height 0.3s ease;
-	-webkit-transition: opacity, height 0.3s ease;
+    transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
 }
 .hider:hover + .hidden{
     height: 300px;
-	transition: opacity, height 0.5s ease;
-	-webkit-transition: opacity, height 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
     transform: scaleY(1);
 	opacity: 1;
 }
@@ -226,19 +226,16 @@ body{
     .codebox .code{
         width:80%;
     }
-    .codebox .side{
-        max-height: 600px;
-    }
     .hidden{
-    	transition: opacity, max-height 0.5s ease;
-    	-webkit-transition: opacity, max-height 0.5s ease;
+    	transition: all 0.5s ease;
+    	-webkit-transition: all 0.5s ease;
         height:0;
         max-height: 0;
     	opacity: 1;
     }
     .hider:hover + .hidden{
-    	transition: opacity, max-height 0.5s ease;
-    	-webkit-transition: opacity, max-height 0.5s ease;
+    	transition: all 0.5s ease;
+    	-webkit-transition: all 0.5s ease;
         max-height: 600px;
         height: 100%;
     	opacity: 1;
