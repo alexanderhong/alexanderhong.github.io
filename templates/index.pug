@@ -1,0 +1,26 @@
+
+extends layout
+
+block content
+    div#article-grid
+      each article in articles
+        article.article.intro
+          header
+            section.preview 
+              a(href=article.url) 
+                img(src=article.url+"preview.png")
+            h2
+              a(href=article.url)= article.title
+          section.content
+            if article.intro.length > 0
+              != typogr(article.intro).typogrify()
+            if article.hasMore
+              p.more
+                a(href=article.url) more
+
+block prepend footer
+  div.nav
+    if prevPage
+      a(href=prevPage.url) &laquo; Previous page
+    if nextPage
+      a(href=nextPage.url) Next page &raquo;
