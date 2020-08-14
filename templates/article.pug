@@ -7,13 +7,7 @@ block append vars
 block prepend title
   | #{ page.title + ' - '}
 
-block header
-  h1= page.title
-
 block content
   article.article
+    h1= page.title
     section.content!= typogr(page.html).typogrify()
-
-block prepend footer
-  div.nav
-    a(href=contents.index.url) &laquo; Home

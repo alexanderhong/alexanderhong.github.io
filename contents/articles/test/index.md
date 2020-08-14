@@ -16,29 +16,30 @@ In this project, I built a raytracer that can trace paths of light through a sce
 Overall, I spent a while optimizing my intersection tests so that I could generate renders locally in a reasonable amount of time. A lot of my debugging time was focused on implementing direct and indirect lighting, since small errors such as numerical imprecision or incorrectly converted values had noticeable effects on the final renders.
 As a 3D artist who works frequently with rendering software such as Pixar's RenderMan, working through this project gave me a better understanding of the math behind it all. While I knew about these sampling definitions and the general concepts behind rendering, coding these different parts of global illumination allowed me to better conceptualize how all these rendering parameters affect the pathtracer.
 
-<h2 align="middle">Part 1: Ray Generation and Intersection</h2>
-    In order to begin raytracing, rays must be generated from the camera for each pixel of the image space to explore visible objects. These rays must also be able to intersect with primitives and return a color (Spectrum) value, which will get averaged with the values returned sample rays for the same pixel to get the final color for that pixel.
-    The primitives supported by this raytracer are triangles. I used the Möller-Trumbore ray-intersection algorithm to find the <em>t</em> value for which the ray intersects with a primitive.
-    <div align="center"><img src="https://cs184.eecs.berkeley.edu/public/sp20/lectures/lec-10-ray-tracing/slides/slide-20.jpg" width ="50%"/>
-    <figcaption align="middle">Möller-Trumbore algorithm taken from CS184 lecture slides</figcaption></div>
+## Part 1: Ray Generation and Intersection
+In order to begin raytracing, rays must be generated from the camera for each pixel of the image space to explore visible objects. These rays must also be able to intersect with primitives and return a color (Spectrum) value, which will get averaged with the values returned sample rays for the same pixel to get the final color for that pixel.
+The primitives supported by this raytracer are triangles. I used the Möller-Trumbore ray-intersection algorithm to find the <em>t</em> value for which the ray intersects with a primitive.
 
-    The Möller-Trumbore algorithm solves for the barycentric coordinates of the ray on the plane defined by the current triangle, allowing us to check if the ray is within the triangle.
-    Below are some examples of normal shading for a few different DAE files.
+<div align="center"><img src="https://cs184.eecs.berkeley.edu/public/sp20/lectures/lec-10-ray-tracing/slides/slide-20.jpg" width ="100px"/>
+<figcaption align="middle">Möller-Trumbore algorithm taken from CS184 lecture slides</figcaption></div>
 
-    <div align="center">
-        <table style="width=100">
-            <tr>
-                <td align="middle">
-                <img src="images/CBempty.png" width="100%" />
-                <figcaption align="middle">CBempty with normal lighting.</figcaption>
-              </td>
-                <td align="middle">
-                <img src="images/CBspheres.png" width="100%" />
-                <figcaption align="middle">CBspheres with normal lighting.</figcaption>
-              </td>
-            </tr>
-        </table>
-    </div>
+The Möller-Trumbore algorithm solves for the barycentric coordinates of the ray on the plane defined by the current triangle, allowing us to check if the ray is within the triangle.
+Below are some examples of normal shading for a few different DAE files.
+
+<div align="center">
+    <table style="width=100">
+        <tr>
+            <td align="middle">
+            <img src="images/CBempty.png" width="100%" />
+            <figcaption align="middle">CBempty with normal lighting.</figcaption>
+          </td>
+            <td align="middle">
+            <img src="images/CBspheres.png" width="100%" />
+            <figcaption align="middle">CBspheres with normal lighting.</figcaption>
+          </td>
+        </tr>
+    </table>
+</div>
 
 <h2 align="middle">Part 2: Bounding Volume Hierachy</h2>
 My BVH algorithm processes every primitive and saves the coordinates of each primitive's centroid, computing the average of all centroids at the end of the loop. Based on which axis (x, y, or z) has the greatest range of values, the primitives are split depending on if they lie on the left or right of the average of all centroids in the axis of greatest range. This algorithm runs quite quickly and produces a pretty good hierarchy for scenes that can be easily divided into left/right binary components.
@@ -121,15 +122,15 @@ The above images were importance sampled with one sample per pixel, with increas
 As expected, importance sampling produces much cleaner results than uniform hemisphere sampling. It also renders much faster, since the intersection test is allowed to short circuit. It also runs considerably faster. On my local machine, renders that took several minutes with uniform hemisphere sampling took less than a minute with importance sampling. The chosen sampling distribution for importance sampling does not appear to be biased, since scenes are still lit similarly across the different sample methods. One small difference I noticed was that the ceiling lights no longer bleed out onto the adjacent ceiling, but this could be attributed to differences in numerical precision. Importance sampling also allows us to render point lights in scenes. With uniform hemisphere sampling, the probably that a point light will be hit by our secondary rays is infinitescimal. With importance sampling, we can make sure that the contribution from these point lights is added to the lighting estimation.
 
 <div align="center">
-    <table style="width=100">
-        <tr>
-            <td align="middle">
-            <img src="images/dragon_64_32_new.png" width="100%" />
-            <figcaption align="middle">Dragon with point lights.</figcaption>
-          </td>
-        </tr>
-      </table>
-    </div>
+  <table style="width=100">
+      <tr>
+          <td align="middle">
+          <img src="images/dragon_64_32_new.png" width="100%" />
+          <figcaption align="middle">Dragon with point lights.</figcaption>
+        </td>
+      </tr>
+    </table>
+</div>
 
 <h2 align="middle">Part 4: Global Illumination</h2>
 Implementing global illumination requires adding indirect illumination to our lighting estimate. To do this, my implementation first calls one_bounce_radiance to find the radiance at a given point from only direct lights. To estimate the contribution from indirect lights, I create a secondary ray starting from the current location and bouncing in a random direction based on the BSDF of the current primitive. Russian roulette and the max_ray_depth parameter determines if this ray's path will be traced or not. If a ray is terminated, then the direct lighting contribution from our current intersection point is all that is returned. If the ray is traced and it intersects with a new object, then we add the contribution of light from this ray to our direct lighting calcuations. To obtain the irradiance from this particular direction bouncing from this particular object, we must recursively call at_least_one_bounce_radiance on the new intersection point to get an estimation of the light there.

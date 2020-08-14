@@ -1,4 +1,4 @@
 
-# Blog
+# Alexander Hong's portfolio website
 
-The default [wintersmith](https://github.com/jnordberg/wintersmith) template
+A redesigned portfolio website built in summer 2020 with Wintersmith.
