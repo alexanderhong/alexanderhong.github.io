@@ -1,6 +1,5 @@
 ---
 title: Path Tracer
-author: the-wintersmith
 date: 2020-12-01 15:00
 image: "http://projects.dailycal.org/2020/graduation-2020/images/alexanderhong_light_at_tunnels_end-1800.png"
 template: article.pug

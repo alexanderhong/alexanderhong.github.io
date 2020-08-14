@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://alexanderhong.github.io",
-    "name": "Alexander Hong",
-    "owner": "Alexander Hong",
-    "description": "I'm a programmer and artist studying EECS at UC Berkeley."
+    "name": "The Wintersmith's blog",
+    "owner": "Someone",
+    "description": "Ramblings of an immor(t)al demigod"
   },
   "plugins": [
     "./plugins/paginator.coffee"
@@ -21,6 +21,6 @@
     "smartypants": true
   },
   "paginator": {
-    "perPage": 10
+    "perPage": 3
   }
 }
