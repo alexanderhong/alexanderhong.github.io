@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://alexanderhong.github.io",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "name": "Alexander Hong",
+    "owner": "Alexander Hong",
+    "description": "Portfolio site for Alexander Hong"
   },
   "plugins": [
     "./plugins/paginator.coffee"
