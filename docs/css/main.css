@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
 
 body {
   font-family: 'Alegreya Sans', sans-serif;
-  font-size: 12px;
+  font-size: 14pt;
   line-height: 1.52;
   background-color: #f8f8f8;
   text-rendering: optimizeLegibility;
@@ -19,7 +19,7 @@ body {
   background-attachment: fixed;
   background-position-x: center;
   background-position-y: 80px !important;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: auto 400px;
 }
 
@@ -109,7 +109,7 @@ hr {
 
 
 .logo {
-  margin-top: 25px;
+  margin-top: 20px;
   grid-column: 1;
   justify-self: start;
   letter-spacing: 1px;
@@ -134,7 +134,7 @@ nav {
 
 nav li {
   color: #dfdfdf;
-  font-size: .8em;
+  font-size: 12pt;
   display: inline;
   padding-left: 15px;
   padding-right: 15px;
@@ -158,7 +158,7 @@ nav li {
 }
 
 .header h1 {
-  font-size: 1.2em;
+  font-size: 20pt;
   text-align: center;
   font-weight: 700;
   margin: 0;
@@ -255,7 +255,7 @@ footer .copy, footer .copy a {
   display: inline;
   font-weight: 700;
   margin: 0 .8em 0 0;
-  font-size: 1em;
+  font-size: 16pt;
 
 }
 
@@ -288,7 +288,7 @@ footer .copy, footer .copy a {
 
 .article.intro .content p {
   display: inline;
-  font-size: .8em;
+  font-size: 12pt;
 }
 
 .article.intro .content .more {
