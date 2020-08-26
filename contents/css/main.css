@@ -25,13 +25,13 @@ body {
 
 .content-wrap {
   /* display: block; */
-  width: 900px;
+  width: 960px;
   margin: 0 auto 0;
 }
 
 #article-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr  ;
   grid-gap: 20px;
 }
 
@@ -255,7 +255,7 @@ footer .copy, footer .copy a {
   display: inline;
   font-weight: 700;
   margin: 0 .8em 0 0;
-  font-size: 16pt;
+  font-size: 14pt;
 
 }
 
@@ -276,6 +276,7 @@ footer .copy, footer .copy a {
   object-position: center; /* Center the image within the element */
   width: 100%;
   overflow: hidden;
+  max-height: 320px;
 }
 
 .preview img {
@@ -395,13 +396,17 @@ code.lang-markdown .bullet {
   body { font-size: 18px; }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   body { font-size: 18px; }
   .content-wrap {
     width: auto;
     padding: 0 1em;
   }
+  #article-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
+
 
 @media (max-width: 690px) {
   .content-wrap {
@@ -411,16 +416,29 @@ code.lang-markdown .bullet {
 
   #article-grid {
     width: auto;
-    padding: 0 1em;
+    /* padding: 0 1em; */
     grid-template-columns: 1fr;
   }
 
+  .article.intro h2 {
+    font-size: 12pt;
+  }
+
+  .article.intro .content {
+    margin: 10px 30px 30px;
+  }
+
+  .article.intro .content p {
+    hyphens: auto;
+    font-size: 11pt;
+  }
+
   .illustration {
-    background-position-y: 120px !important;
+    background-position-y: 110px !important;
   }
   .header {
     /* margin: 1em 0; */
-    height: 120px;
+    height: 110px;
   }
 
   .header .content-wrap {
@@ -442,8 +460,15 @@ code.lang-markdown .bullet {
     margin-top: 0;
   }
 
+  nav li {
+    font-size: 11pt;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
   .header h1 {
-    font-size: 1.8em;
+    font-size: 1.4em;
     /* margin-bottom: 0.6em; */
   }
   .header .description {
@@ -452,7 +477,7 @@ code.lang-markdown .bullet {
 
 
   .article {
-    margin: 140px 0 2.5em;
+    margin: 130px 0 2.5em;
   }
   .archive {
     width: 80%;
