@@ -6,7 +6,7 @@ This is my portfolio website, which is still a work-in-progress. It contains bot
 
 The site is designed by me and built in Wintersmith, using some of the source code of the Wintersmith blog template. You can view the repository [here][1].
 
-I'm still in the process of moving stuff over from my older portfolio. In the meantime, you can find my older works (mostly pre-2020 stuff) [here][3]. My works can also be found on [The Daily Californian website][5].
+I'm still in the process of moving stuff over from my older portfolio. In the meantime, you can find my older works (mostly pre-2020 stuff) [here][3]. My illustrations can also be found on [The Daily Californian website][5].
 
 If you have any questions about my work or just want to chat, feel free to reach out to me at [alexanderhong@berkeley.edu][2]. If you have questions about my editorial and design work, specifically, I'm also reachable at [creativedirector@dailycal.org][4].
 
