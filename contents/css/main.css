@@ -147,6 +147,7 @@ nav li {
   right: 0;
   width: 100%;
   height: 80px;
+  z-index: 1;
 
   /* margin: 3em 0 3em; */
 }
@@ -254,6 +255,7 @@ footer .copy, footer .copy a {
   font-family: 'Alegreya', serif;
   display: inline;
   font-weight: 700;
+  letter-spacing: .3pt;
   margin: 0 .8em 0 0;
   font-size: 14pt;
 
@@ -267,20 +269,33 @@ footer .copy, footer .copy a {
   margin: 0px;
   background-color: #efefef;
   border-radius: .2em;
+  transition: all .2s ease;
+  z-index: 0;
+  /* padding: 25px; */
+}
+
+.article.intro:hover{
+  transform: scale(1.02);
   /* padding: 25px; */
 }
 
 .preview {
-  /* padding-top: 10px; */
-  object-fit: cover;
-  object-position: center; /* Center the image within the element */
-  width: 100%;
   overflow: hidden;
-  max-height: 320px;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:10 ratio */
+  height: 0;
 }
 
 .preview img {
-  width: 100%
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  /* max-height: 320px; */
 }
 
 .article.intro .content {
@@ -396,7 +411,7 @@ code.lang-markdown .bullet {
   body { font-size: 18px; }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   body { font-size: 18px; }
   .content-wrap {
     width: auto;

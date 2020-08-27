@@ -1,8 +1,8 @@
 ---
-title: Under Construction
-date: 2020-10-01 15:00
+title: Under construction
 template: article.pug
-banner: preview.png
+id: 10
+image: preview.png
 ---
 
 Hello, this website is still under construction. Please check back later for more info.

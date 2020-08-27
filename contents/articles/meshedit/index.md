@@ -1,11 +1,11 @@
 ---
 title: MeshEdit
-date: 2020-11-01 15:00
+id: 4
 template: article.pug
-banner: preview.png
+image: preview.png
 ---
 
-Hello, this website is still under construction. Please check back later for more info.
+A simple mesh-editing tool for DAE files with support for mesh upsampling.
 <span class="more"></span>  
 
 <h2 align="middle">Overview</h2>
