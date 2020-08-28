@@ -37,10 +37,20 @@ import { segVertex, segFragment, addFragment } from './shaders/seg_shader.js';
 	document.getElementById("complex").appendChild( renderer.domElement );
   material = new THREE.MeshBasicMaterial( { color: 0x000000 } );
 
+
+
 	camera.position.set(226., 158., 254.)
   camera.lookAt(new THREE.Vector3( 0, 0, 0 ))
   camera.rotation.set(-30., 397., 0.)
 	// camera.rotation.z = 1/6*Math.PI
+
+  var container = document.getElementById('complex');
+  var box = container.getBoundingClientRect();
+  width = box.width
+  height = 500
+  renderer.setSize(width, height);
+  camera.aspect = width/height
+  camera.updateProjectionMatrix()
 
   var pointLight = new THREE.PointLight(0xffffff, 500.0);
   pointLight.position.set(1.5, 2, 2);
@@ -319,6 +329,17 @@ import { segVertex, segFragment, addFragment } from './shaders/seg_shader.js';
 
 
       renderer.setRenderTarget(bufferTexture)
+
+
+      var container = document.getElementById('complex');
+      var box = container.getBoundingClientRect();
+      width = box.width
+      height = 500
+      renderer.setSize(width, height);
+      camera.aspect = width/height
+      camera.updateProjectionMatrix()
+
+
       var delta = clock.getDelta();
       renderer.render(scene, camera)
 
