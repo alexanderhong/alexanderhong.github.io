@@ -9,7 +9,7 @@ banner: preview.png
 
 ![Project banner](images/banner.png)
 
-<h3 id="9/26-10/2">9/26-10/2</h3>
+<h3 id="9/26-10/2" class="anchor">9/26-10/2</h3>
 
 For this week, I worked on developing our short's style and iterating upon concept art. Over the first few days, I contributed to research and made some early character design mockups.
 
