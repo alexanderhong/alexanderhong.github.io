@@ -295,6 +295,14 @@ import { segVertex, segFragment, addFragment } from './shaders/seg_shader.js';
        }
     } );
 
+    var container = document.getElementById('complex');
+    var box = container.getBoundingClientRect();
+    width = box.width
+    height = 500
+    renderer.setSize(width, height);
+    camera.aspect = width/height
+    camera.updateProjectionMatrix()
+
     let renderBuffer1 = new THREE.WebGLRenderTarget( width, height, parameters )
     let renderBuffer2 = new THREE.WebGLRenderTarget( width, height, parameters )
 
