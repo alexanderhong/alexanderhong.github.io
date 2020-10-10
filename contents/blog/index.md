@@ -5,7 +5,8 @@ template: article.pug
 banner: preview.png
 ---
 
-*   [Week of 9/26-10/2](#9/26-10/2)
+* [Week of 9/26-10/2](#9/26-10/2)
+* [Week of 10/3-10/9](#10/3-10/9)
 
 ![Project banner](images/banner.png)
 
@@ -30,3 +31,15 @@ I also made a number of boards, some of which have yet to make it into the anima
 ![lost](images/lost.gif)
 
 ![end](images/end.png)
+
+<h3 id="10/3-10/9" class="anchor">10/3-10/9</h3>
+
+For this week, I worked on adjusting our storyboards based on guest feedback and gave feedback on people's character designs. A few of these storyboards can be seen below.
+
+![Far](images/far_0000.png)
+![Reach](images/reach.png)
+![Fall](images/fall.gif)
+
+I also contributed to environment design, trying to define the shape language of the desert and testing out how we can use simple gradients of color to establish the atmosphere.
+
+![Desert sketch](images/desert-sketch.png)
