@@ -7,6 +7,7 @@ banner: preview.png
 
 * [Week of 9/26-10/2](#9/26-10/2)
 * [Week of 10/3-10/9](#10/3-10/9)
+* [Week of 10/10-10/16](#10/10-10/16)
 
 ![Project banner](images/banner.png)
 
@@ -43,3 +44,17 @@ For this week, I worked on adjusting our storyboards based on guest feedback and
 I also contributed to environment design, trying to define the shape language of the desert and testing out how we can use simple gradients of color to establish the atmosphere.
 
 ![Desert sketch](images/desert-sketch.png)
+
+<h3 id="10/10-10/16" class="anchor">10/10-10/16</h3>
+
+I worked on storyboard revisions for the first half of the week. This time, the animatic team jamboarded storyboard ideas together to figure out how to best express the story we are trying to tell.
+
+![Boards](images/jamboard-example.png)
+
+To make it easier for people to track changes in the story and solidify our short's overall direction, I also created a slide-deck to break down story beats and the Pillars of the short.
+
+![Powerpoint](images/story-ppt.png)
+
+I also did some sketches of character designs and stuff.
+
+![Mirage sketching](images/mirage_sketch.png)
