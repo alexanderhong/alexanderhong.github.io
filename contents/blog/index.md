@@ -5,12 +5,20 @@ template: article.pug
 banner: preview.png
 ---
 
+* [Week of 10/24-10/30](#10/24-10/30)
 * [Week of 10/17-10/23](#10/17-10/23)
 * [Week of 10/10-10/16](#10/10-10/16)
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
 
 ![Project banner](images/banner.png)
+
+<h3 id="10/24-10/30" class="anchor">10/24-10/30</h3>
+This week, I worked on a few animatic changes before moving over to character modeling in ZBrush. I worked on the character sculpt for the man, based off Celine's turnaround for him. Some screenshots are attached below.
+
+![Full body of man](images/zbrush-fullbody.png)
+![Bust of man](images/zbrush-bust.png)
+![Side view of man](images/zbrush-side.png)
 
 <h3 id="10/17-10/23" class="anchor">10/17-10/23</h3>
 
