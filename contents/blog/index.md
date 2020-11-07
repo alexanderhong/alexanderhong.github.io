@@ -5,6 +5,7 @@ template: article.pug
 banner: preview.png
 ---
 
+* [Week of 10/31-11/6](#10/31-11/6)
 * [Week of 10/24-10/30](#10/24-10/30)
 * [Week of 10/17-10/23](#10/17-10/23)
 * [Week of 10/10-10/16](#10/10-10/16)
@@ -12,6 +13,15 @@ banner: preview.png
 * [Week of 9/26-10/2](#9/26-10/2)
 
 ![Project banner](images/banner.png)
+
+<h3 id="10/31-11/6" class="anchor">10/31-11/6</h3>
+With our story moving forward in a direction that we're confident with, I was able to take a bit of a step back from actively working on revising the boards and animatic and focusing on the look of our character models. I refined the character sculpt based on discussions with the and Christine's critique on Monday, and also began the process of defining the character's low poly topology. I have yet to make the final clothing in Maya or completely fixed up the topology in Maya.
+
+
+![Full body of man, version 2](images/zbrush-turnaround.png)
+
+![Man bust topology](images/zbrush-bust-2.png)
+
 
 <h3 id="10/24-10/30" class="anchor">10/24-10/30</h3>
 This week, I worked on a few animatic changes before moving over to character modeling in ZBrush. I worked on the character sculpt for the man, based off Celine's turnaround for him. Some screenshots are attached below.
