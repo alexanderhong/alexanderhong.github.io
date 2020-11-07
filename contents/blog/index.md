@@ -15,7 +15,7 @@ banner: preview.png
 ![Project banner](images/banner.png)
 
 <h3 id="10/31-11/6" class="anchor">10/31-11/6</h3>
-With our story moving forward in a direction that we're confident with, I was able to take a bit of a step back from actively working on revising the boards and animatic and focusing on the look of our character models. I refined the character sculpt based on discussions with the and Christine's critique on Monday, and also began the process of defining the character's low poly topology. I have yet to make the final clothing in Maya or completely fixed up the topology in Maya.
+With our story moving forward in a direction that we're confident with, I was able to take a bit of a step back from actively working on revising the boards and animatic and focusing on the look of our character models. I refined the character sculpt based on discussions with the and Christine's critique on Monday, and also began the process of defining the character's low poly topology. I have yet to make the final clothing in Maya or completely fix up the topology in Maya.
 
 
 ![Full body of man, version 2](images/zbrush-turnaround.png)
