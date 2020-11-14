@@ -5,6 +5,7 @@ template: article.pug
 banner: preview.png
 ---
 
+* [Week of 11/7-11/13](#11/7-11/13)
 * [Week of 10/31-11/6](#10/31-11/6)
 * [Week of 10/24-10/30](#10/24-10/30)
 * [Week of 10/17-10/23](#10/17-10/23)
@@ -13,6 +14,11 @@ banner: preview.png
 * [Week of 9/26-10/2](#9/26-10/2)
 
 ![Project banner](images/banner.png)
+
+<h3 id="11/7-11/13" class="anchor">11/7-11/13</h3>
+This week, we continued to refine our story details, and I continued my role as director in overseeing and signing off on changes to beats. I also continued to iterate on the character model, using feedback from my group and class crit. I also started working on more finalized, simulation-ready topology for the man's clothing, using Christine's advice and starting the clothes as a one-sided, symmetrical mesh in Maya.
+
+![Rough version of clothes on Jon](images/clothes-rough.png)
 
 <h3 id="10/31-11/6" class="anchor">10/31-11/6</h3>
 With our story moving forward in a direction that we're confident with, I was able to take a bit of a step back from actively working on revising the boards and animatic and focusing on the look of our character models. I refined the character sculpt based on discussions with the and Christine's critique on Monday, and also began the process of defining the character's low poly topology. I have yet to make the final clothing in Maya or completely fix up the topology in Maya.
