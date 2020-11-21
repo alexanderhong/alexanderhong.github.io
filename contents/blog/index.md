@@ -5,6 +5,7 @@ template: article.pug
 banner: preview.png
 ---
 
+* [Week of 11/14-11/20](#11/14-11/20)
 * [Week of 11/7-11/13](#11/7-11/13)
 * [Week of 10/31-11/6](#10/31-11/6)
 * [Week of 10/24-10/30](#10/24-10/30)
@@ -14,6 +15,16 @@ banner: preview.png
 * [Week of 9/26-10/2](#9/26-10/2)
 
 ![Project banner](images/banner.png)
+
+<h3 id="11/14-11/20" class="anchor">11/14-11/20</h3>
+This week, I worked with Connie to help refine the sculpt of the desert, locking some preliminary cameras and doing drawovers on Zoom to help refine how we want the desert to look in each shot. 
+
+![Desert notes](images/desert-notes.png)
+
+Admittedly, my progress on Jon this week has slowed somewhat, as my laptop had to be sent in for repairs and I had to spend some time migrating to a new computer. I worked on resizing Jon to real world scale, so that exporting him to Maya results in correctly sized units, and further refined the topology for his clothes. After checking in with Cameron tomorrow, I hope to finish up his clothing and body retopology before class on Monday.
+
+![Rough clothes](images/clothes-rough-2.png)
+
 
 <h3 id="11/7-11/13" class="anchor">11/7-11/13</h3>
 This week, we continued to refine our story details, and I continued my role as director in overseeing and signing off on changes to beats. I also continued to iterate on the character model, using feedback from my group and class crit. I also started working on more finalized, simulation-ready topology for the man's clothing, using Christine's advice and starting the clothes as a one-sided, symmetrical mesh in Maya.
