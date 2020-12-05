@@ -5,6 +5,7 @@ template: article.pug
 banner: preview.png
 ---
 
+* [Week of 11/28-12/4](#11/28-12/4)
 * [Week of 11/14-11/20](#11/14-11/20)
 * [Week of 11/7-11/13](#11/7-11/13)
 * [Week of 10/31-11/6](#10/31-11/6)
@@ -16,8 +17,18 @@ banner: preview.png
 
 ![Project banner](images/banner.png)
 
+<h3 id="11/28-12/4" class="anchor">11/28-12/4</h3>
+I worked on refining Jon's topology, focusing a lot on his clothes. I also started some basic shading tests for Jon, without any texture maps.
+
+![Jon's topology in a side view and test renders](images/jon-progress.png)
+
+I also worked on procedurally generating background dunes with a RenderMan procedural shader.
+
+![Dunes](images/dunes.png)
+
+
 <h3 id="11/14-11/20" class="anchor">11/14-11/20</h3>
-This week, I worked with Connie to help refine the sculpt of the desert, locking some preliminary cameras and doing drawovers on Zoom to help refine how we want the desert to look in each shot. 
+This week, I worked with Connie to help refine the sculpt of the desert, locking some preliminary cameras and doing drawovers on Zoom to help refine how we want the desert to look in each shot.
 
 ![Desert notes](images/desert-notes.png)
 
