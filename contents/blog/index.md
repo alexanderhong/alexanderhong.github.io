@@ -1,10 +1,11 @@
 ---
 title: CNM 190 Blog
 date: 2020-10-02 11:00
-template: article.pug
+template: blog.pug
 banner: preview.png
 ---
 
+* [Week of 1/23-1/29](#1/23-1/29)
 * [Week of 12/5-12/11](#12/5-12/11)
 * [Week of 11/28-12/4](#11/28-12/4)
 * [Week of 11/14-11/20](#11/14-11/20)
@@ -16,7 +17,11 @@ banner: preview.png
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
 
-![Project banner](images/banner.png)
+
+<h3 id="1/23-1/29" class="anchor">1/23-1/29</h3>
+This past week, I mostly focused on finishing a first pass for Jon's hair in XGen. While I've made a few grooms in the past, I used Ali's video to do a pure Interactive Groom workflow instead of a XGen / Interactive Groom hybrid. I also added eyebrows and eyelashes to Jon's skin and tested blendshapes for a few expressions that we wanted Jon to hit.
+
+![Jon render with XGen hair](images/xgen-render.png)
 
 <h3 id="12/5-12/11" class="anchor">12/5-12/11</h3>
 Earlier in the week, I worked on finalizing Jon's body topology, giving his hands another pass after looking at more topology references online. I also modeled teeth for his mesh, re-organized his file's outliner to make it easier to navigate, optimized the scene size and prepared the file for shading. Celine and I worked together to finalize his eye meshes based off of Ali's presentation from the other day to make sure it was shading-ready. His UVs from last week somehow got saved over, so I did a couple more passes on his UV map. Honestly, Jon's felt 99% close to completion for a couple weeks, but it felt nice to Really finalize everything in time for shading and rigging to begin in earnest.

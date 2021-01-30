@@ -15,6 +15,7 @@ body {
   width: 100%;
   height: 400px;
   margin-bottom: 2em;
+  margin-top: -100px;
   overflow: hidden;
   background-attachment: fixed;
   background-position-x: center;
@@ -27,6 +28,10 @@ body {
   /* display: block; */
   width: 960px;
   margin: 0 auto 0;
+}
+
+#content {
+  margin-top: 100px;
 }
 
 
@@ -250,7 +255,7 @@ footer .copy, footer .copy a {
 /* article */
 
 .article {
-  margin: 100px 0 4em;
+  margin: 0 0 4em;
 }
 
 .article header {
@@ -322,6 +327,7 @@ footer .copy, footer .copy a {
 .article .content img {
   display: block;
   width: 100%;
+  padding-top: 10px;
 }
 
 .illo-grid ul {
@@ -486,6 +492,11 @@ code.lang-markdown .bullet {
     grid-template-columns: 1fr;
   }
 
+  #content {
+    margin-top: 130px;
+  }
+
+
   .article.intro h2 {
     font-size: 12pt;
   }
@@ -543,7 +554,7 @@ code.lang-markdown .bullet {
 
 
   .article {
-    margin: 130px 0 2.5em;
+    margin: 0 0 2.5em;
   }
   .archive {
     width: 80%;
