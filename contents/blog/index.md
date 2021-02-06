@@ -5,6 +5,7 @@ template: blog.pug
 banner: preview.png
 ---
 
+* [Week of 1/30-2/5](#1/30-2/5)
 * [Week of 1/23-1/29](#1/23-1/29)
 * [Week of 12/5-12/11](#12/5-12/11)
 * [Week of 11/28-12/4](#11/28-12/4)
