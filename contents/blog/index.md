@@ -19,6 +19,7 @@ banner: preview.png
 
 
 <h3 id="1/30-2/5" class="anchor">1/30-2/5</h3>
+
 I started off the week by further refining Jon's XGen hair from last week. I also helped debug some shaders with Celine and Anny, so that we were finally able to produce some complete renders with Jon, his hair, and his clothing. Seeing these renders made me super excited to see our characters and our short coming together.
 
 ![Jon rendered with his concept art for comparison](images/jon-fullrender.jpg)
@@ -33,6 +34,7 @@ This past week, I mostly focused on finishing a first pass for Jon's hair in XGe
 ![Jon render with XGen hair](images/xgen-render.png)
 
 <h3 id="12/5-12/11" class="anchor">12/5-12/11</h3>
+
 Earlier in the week, I worked on finalizing Jon's body topology, giving his hands another pass after looking at more topology references online. I also modeled teeth for his mesh, re-organized his file's outliner to make it easier to navigate, optimized the scene size and prepared the file for shading. Celine and I worked together to finalize his eye meshes based off of Ali's presentation from the other day to make sure it was shading-ready. His UVs from last week somehow got saved over, so I did a couple more passes on his UV map. Honestly, Jon's felt 99% close to completion for a couple weeks, but it felt nice to Really finalize everything in time for shading and rigging to begin in earnest.
 
 ![Jon's hand topology](images/hand.png)
@@ -40,6 +42,7 @@ Earlier in the week, I worked on finalizing Jon's body topology, giving his hand
 ![Jon's final model from front view](images/jon-final.png)
 
 <h3 id="11/28-12/4" class="anchor">11/28-12/4</h3>
+
 I worked on refining Jon's topology, focusing a lot on his clothes. I also started some basic shading tests for Jon, without any texture maps.
 
 ![Jon's topology in a side view and test renders](images/jon-progress.png)
@@ -60,11 +63,13 @@ Admittedly, my progress on Jon this week has slowed somewhat, as my laptop had t
 
 
 <h3 id="11/7-11/13" class="anchor">11/7-11/13</h3>
+
 This week, we continued to refine our story details, and I continued my role as director in overseeing and signing off on changes to beats. I also continued to iterate on the character model, using feedback from my group and class crit. I also started working on more finalized, simulation-ready topology for the man's clothing, using Christine's advice and starting the clothes as a one-sided, symmetrical mesh in Maya.
 
 ![Rough version of clothes on Jon](images/clothes-rough.png)
 
 <h3 id="10/31-11/6" class="anchor">10/31-11/6</h3>
+
 With our story moving forward in a direction that we're confident with, I was able to take a bit of a step back from actively working on revising the boards and animatic and focusing on the look of our character models. I refined the character sculpt based on discussions with the and Christine's critique on Monday, and also began the process of defining the character's low poly topology. I have yet to make the final clothing in Maya or completely fix up the topology in Maya.
 
 
@@ -74,6 +79,7 @@ With our story moving forward in a direction that we're confident with, I was ab
 
 
 <h3 id="10/24-10/30" class="anchor">10/24-10/30</h3>
+
 This week, I worked on a few animatic changes before moving over to character modeling in ZBrush. I worked on the character sculpt for the man, based off Celine's turnaround for him. Some screenshots are attached below.
 
 ![Full body of man](images/zbrush-fullbody.png)

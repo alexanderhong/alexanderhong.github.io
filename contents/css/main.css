@@ -327,7 +327,7 @@ footer .copy, footer .copy a {
 .article .content img {
   display: block;
   width: 100%;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .illo-grid ul {
