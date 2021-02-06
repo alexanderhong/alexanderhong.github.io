@@ -23,7 +23,7 @@ I started off the week by further refining Jon's XGen hair from last week. I als
 
 ![Jon rendered with his concept art for comparison](images/jon-fullrender.jpg)
 
-Towards the end of the week, I shifted to working on testing out Maya to Houdini workflows, since we still intend on using Houdini for Maya simulations.
+Towards the end of the week, I shifted to working on testing out Maya to Houdini workflows, since we still intend on using Houdini and Maya simulations.
 
 ![Desert with smoke in Houdini](images/houdini-test.png)
 
