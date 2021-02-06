@@ -18,6 +18,15 @@ banner: preview.png
 * [Week of 9/26-10/2](#9/26-10/2)
 
 
+<h3 id="1/30-2/5" class="anchor">1/30-2/5</h3>
+I started off the week by further refining Jon's XGen hair from last week. I also helped debug some shaders with Celine and Anny, so that we were finally able to produce some complete renders with Jon, his hair, and his clothing. Seeing these renders made me super excited to see our characters and our short coming together.
+
+![Jon rendered with his concept art for comparison](images/jon-fullrender.jpg)
+
+Towards the end of the week, I shifted to working on testing out Maya to Houdini workflows, since we still intend on using Houdini for Maya simulations.
+
+![Desert with smoke in Houdini](images/houdini-test.png)
+
 <h3 id="1/23-1/29" class="anchor">1/23-1/29</h3>
 This past week, I mostly focused on finishing a first pass for Jon's hair in XGen. While I've made a few grooms in the past, I used Ali's video to do a pure Interactive Groom workflow instead of a XGen / Interactive Groom hybrid. I also added eyebrows and eyelashes to Jon's skin and tested blendshapes for a few expressions that we wanted Jon to hit.
 
