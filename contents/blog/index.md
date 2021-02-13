@@ -5,6 +5,7 @@ template: blog.pug
 banner: preview.png
 ---
 
+* [Week of 2/6-2/12](#2/6-2/12)
 * [Week of 1/30-2/5](#1/30-2/5)
 * [Week of 1/23-1/29](#1/23-1/29)
 * [Week of 12/5-12/11](#12/5-12/11)
@@ -17,6 +18,17 @@ banner: preview.png
 * [Week of 10/10-10/16](#10/10-10/16)
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
+
+<h3 id="1/30-2/5" class="anchor">2/6-2/12</h3>
+
+I worked on Jon's skinning, using some of the concepts we learned from Jacob Lilly to make sure the deformation looked good. It's been a while since I've skinned a character, so it took a bit of getting used to, but it ended up being a pretty straightforward process once I got the workflow down.
+
+<p><div class="videoWrapper" style="--aspect-ratio: 4 / 3;">
+<iframe src="https://drive.google.com/file/d/1fn85KafH9E4JiA8qDef0myxuhHG2IFEi/preview"></iframe>
+</div></p>
+
+I also spent some time refining his rig controls, adding a rig control to swap between his sculpted, proxy hair and a referenced XGen groom.
+
 
 
 <h3 id="1/30-2/5" class="anchor">1/30-2/5</h3>
