@@ -2,7 +2,7 @@
 view: none
 ---
 
-This is my portfolio website, which is still a work-in-progress. It contains both technical and artistic work that I've done over the past few years. Any illustrations you see on the website are also mine.
+This is my portfolio website. It contains a sample of technical and artistic work that I've done over the past few years. Any illustrations you see on the website are also mine.
 
 The site is designed by me and built in Wintersmith, using some of the source code of the Wintersmith blog template. You can view the repository [here][1].
 
