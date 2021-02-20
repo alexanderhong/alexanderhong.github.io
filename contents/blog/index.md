@@ -5,12 +5,13 @@ template: blog.pug
 banner: preview.png
 ---
 
-2021 ------------------------------
+2021 ------------------------------------
+* [Week of 2/13-2/19](#2/13-2/19)
 * [Week of 2/6-2/12](#2/6-2/12)
 * [Week of 1/30-2/5](#1/30-2/5)
 * [Week of 1/23-1/29](#1/23-1/29)
 
-2020 ------------------------------
+2020 ------------------------------------
 * [Week of 12/5-12/11](#12/5-12/11)
 * [Week of 11/28-12/4](#11/28-12/4)
 * [Week of 11/14-11/20](#11/14-11/20)
@@ -21,6 +22,13 @@ banner: preview.png
 * [Week of 10/10-10/16](#10/10-10/16)
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
+
+<h3 id="2/13-2/19" class="anchor">2/13-2/19</h3>
+
+This week, I further refined Jon's skinning. I also worked on fixing up Jon's teeth model, since we were using a really rough placeholder for earlier stages of the pipeline. I've been doing some test renders getting everything together, with Jon in the desert set with some placeholder lighting just to see how things are coming together, with our goal being to get a "vertical slice" type of frame out soon.
+
+![Jon with teeth](images/jon-teeth.png)
+
 
 <h3 id="2/6-2/12" class="anchor">2/6-2/12</h3>
 
