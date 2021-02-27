@@ -6,6 +6,7 @@ banner: preview.png
 ---
 
 2021 ------------------------------------
+* [Week of 2/20-2/26](#2/20-2/26)
 * [Week of 2/13-2/19](#2/13-2/19)
 * [Week of 2/6-2/12](#2/6-2/12)
 * [Week of 1/30-2/5](#1/30-2/5)
@@ -22,6 +23,12 @@ banner: preview.png
 * [Week of 10/10-10/16](#10/10-10/16)
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
+
+<h3 id="2/20-2/26" class="anchor">2/20-2/26</h3>
+
+There's been some slowdowns in our quest for a vertical slice render, but I spent this work working on getting our desert set rendered with Jon in it so we can better visualize how those assets are coming together. Below is a quick render I made with some quickly composited sand on top. I also explored nParticle simulation for some additional dust/sand particles to add to the desert renders. As director, I advised people on shot direction and animation throughout the week as the animations got more refined. After some review of initial animation with Jon's rig, I continued to touch up the skinning and made some modifications to the rig for better head rotations.
+
+![Jon in desert render](images/desert-render-test.png)
 
 <h3 id="2/13-2/19" class="anchor">2/13-2/19</h3>
 
