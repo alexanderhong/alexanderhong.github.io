@@ -6,6 +6,7 @@ banner: preview.png
 ---
 
 2021 ------------------------------------
+* [Week of 2/27-3/5](#2/27-3/5)
 * [Week of 2/20-2/26](#2/20-2/26)
 * [Week of 2/13-2/19](#2/13-2/19)
 * [Week of 2/6-2/12](#2/6-2/12)
@@ -23,6 +24,12 @@ banner: preview.png
 * [Week of 10/10-10/16](#10/10-10/16)
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
+
+<h3 id="2/27-3/5" class="anchor">2/27-3/5</h3>
+
+I continued working on various pipeline things this past week, doing test renders and making sure that we could bring various assets together into our scenes. Lila's rig file is also missing key features such as her eyes due to some reference weirdness, and Jon's pants have some issues due to rig adjustments that I did last week, so I've been modifying those files as issues have popped up. As director, I continued to give shot-by-shot feedback to the animators on their progress. Since some of our prop shaders never got a full second pass last semester, I've been taking notes on which shaders need to be touched up and also tested some adjustments during the process of making test renders. For instance, in the right of the below image, I made some adjustments to the distant desert dunes so that they fill the background in a more desert-like fashion.
+
+![Test renders](images/render-testing.png)
 
 <h3 id="2/20-2/26" class="anchor">2/20-2/26</h3>
 
