@@ -6,6 +6,7 @@ banner: preview.png
 ---
 
 2021 ------------------------------------
+* [Week of 3/6-3/12](#3/6-3/12)
 * [Week of 2/27-3/5](#2/27-3/5)
 * [Week of 2/20-2/26](#2/20-2/26)
 * [Week of 2/13-2/19](#2/13-2/19)
@@ -24,6 +25,12 @@ banner: preview.png
 * [Week of 10/10-10/16](#10/10-10/16)
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
+
+<h3 id="3/6-3/12" class="anchor">3/6-3/12</h3>
+
+While it was a bit of a busy week for me, I was still able to make some progress with my tasks. I've been testing out workflows for bringing cached objects into scenes, which will be particularly important for the XGen hair and, eventually, the cloth simulations. I've also spent quite a while debugging various pipeline / reference issues that have popped up, such as Jon's eyelids getting Truly warped for some reason and the blendshapes spent the better part of the past week slowly breaking. All appears to be fine now, though. Here's a test render I did. Some shaders weren't quite set up correctly, so please forgive the fact that they appear to be on the moon.
+
+![Jon and Lila look like they're on the moon in this render but they're fine](images/the-moon.png)
 
 <h3 id="2/27-3/5" class="anchor">2/27-3/5</h3>
 
