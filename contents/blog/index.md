@@ -6,7 +6,7 @@ banner: preview.png
 ---
 
 2021 ------------------------------------
-* [Week of 3/6-3/12](#3/6-3/12)
+* [Week of 3/13-3/19](#3/13-3/19)
 * [Week of 2/27-3/5](#2/27-3/5)
 * [Week of 2/20-2/26](#2/20-2/26)
 * [Week of 2/13-2/19](#2/13-2/19)
@@ -25,6 +25,14 @@ banner: preview.png
 * [Week of 10/10-10/16](#10/10-10/16)
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
+
+<h3 id="3/13-3/19" class="anchor">3/13-3/19</h3>
+
+This week, I started taking a closer look at lighting so that the others working on lighting will have a nice starting point based on my tests. Based on those tests, I was able to find a combination of PxrVolume lights and environment lights that gave us a good amount of control to get colors to match our color scripts. I also resumed my test renders from last week, bringing in caches for render testing.
+
+![Jon against a less Mars-like storm](images/color-adjusted.png)
+![Lila is not on the Moon, I promise](images/lila-test-render.png)
+
 
 <h3 id="3/6-3/12" class="anchor">3/6-3/12</h3>
 
