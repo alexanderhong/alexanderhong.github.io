@@ -6,6 +6,7 @@ banner: preview.png
 ---
 
 2021 ------------------------------------
+* [Week of 3/27-4/2](#3/27-4/2)
 * [Week of 3/13-3/19](#3/13-3/19)
 * [Week of 2/27-3/5](#2/27-3/5)
 * [Week of 2/20-2/26](#2/20-2/26)
@@ -25,6 +26,12 @@ banner: preview.png
 * [Week of 10/10-10/16](#10/10-10/16)
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
+
+<h3 id="3/27-4/2" class="anchor">3/27-4/2</h3>
+
+Over break, I worked mostly on hair simulation work in Houdini and some preliminary lighting workflow tests. I worked a lot with Alembic caches, which was really informative and helped me get experienced with bringing scenes together via cache. After some experimenting, I used a Linear Wire modifier on Lila's XGen groom in order to get guide curves which could be exported to Houdini. From there, I used Houdini's Vellum solver to drive a simulation on these curves, which I then brought back into Maya and IGS.
+
+![A first pass at Lila's hair simulations](images/lila-hairsim.gif)
 
 <h3 id="3/13-3/19" class="anchor">3/13-3/19</h3>
 
