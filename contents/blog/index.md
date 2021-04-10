@@ -27,6 +27,12 @@ banner: preview.png
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
 
+<h3 id="4/3-4/9" class="anchor">4/3-4/9</h3>
+
+This week, I continued my work on hair simulation, working to put together hair sims for both characters in a Maya scene. I ran into a lot of issues with running out of memory on my computer and such while working on this process, so I'm looking into more lightweight ways to work with the XGen hair grooms between Maya and Houdini. I also did a bit of rig tweaking to provide a bit more control and continued to provide feedback to my team on lighting and animation.
+
+![Second pass on hair simulation](images/shot5-9_hair.gif)
+
 <h3 id="3/27-4/2" class="anchor">3/27-4/2</h3>
 
 Over break, I worked mostly on hair simulation work in Houdini and some preliminary lighting workflow tests. I worked a lot with Alembic caches, which was really informative and helped me get experienced with bringing scenes together via cache. After some experimenting, I used a Linear Wire modifier on Lila's XGen groom in order to get guide curves which could be exported to Houdini. From there, I used Houdini's Vellum solver to drive a simulation on these curves, which I then brought back into Maya and IGS.
