@@ -6,6 +6,7 @@ banner: preview.png
 ---
 
 2021 ------------------------------------
+* [Week of 4/10-4/16](#4/10-4/16)
 * [Week of 4/3-4/9](#4/3-4/9)
 * [Week of 3/27-4/2](#3/27-4/2)
 * [Week of 3/13-3/19](#3/13-3/19)
@@ -27,6 +28,12 @@ banner: preview.png
 * [Week of 10/10-10/16](#10/10-10/16)
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
+
+<h3 id="4/10-4/16" class="anchor">4/10-4/16</h3>
+
+This week, I worked on refining the hair simulation, specifically looking into workflows to speed up the process of moving simulated hair between Maya files, since some of my cache files were larger than 1 GB last week. I don't have a ton of visual updates to show on this front, since it's mostly just messing around with caching setups and whatnot. I also spent some time to make some preview (non-simmed) hair grooms visible on Lila and Jon's rig files so that lighting artists can see how the hair looks as they work.
+
+![Jon with hair groom](images/now-with-hair.gif)
 
 <h3 id="4/3-4/9" class="anchor">4/3-4/9</h3>
 
