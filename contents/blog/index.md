@@ -33,7 +33,7 @@ banner: preview.png
 
 This week, I worked on refining the hair simulation, specifically looking into workflows to speed up the process of moving simulated hair between Maya files, since some of my cache files were larger than 1 GB last week. I don't have a ton of visual updates to show on this front, since it's mostly just messing around with caching setups and whatnot. I also spent some time to make some preview (non-simmed) hair grooms visible on Lila and Jon's rig files so that lighting artists can see how the hair looks as they work.
 
-![Jon with hair groom](images/now-with-hair.gif)
+![Jon with hair groom](images/now-with-hair.png)
 
 <h3 id="4/3-4/9" class="anchor">4/3-4/9</h3>
 
