@@ -29,6 +29,12 @@ banner: preview.png
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
 
+<h3 id="4/17-4/23" class="anchor">4/17-4/23</h3>
+
+I continued to work on hair simulation, but with a focus on bringing the hair grooms into final scenes, ready to be rendered. I worked a lot with Ethan and a few other members in our group to figure out the best setup for bringing together the caches for our various scenes so that we could render them. I also did some render setup and early compositing testing for our renders. This six second shot, which I rendered on my local machine, contains some of our major simulation work in a single file.
+
+![Simulations](images/rendering.gif)
+
 <h3 id="4/10-4/16" class="anchor">4/10-4/16</h3>
 
 This week, I worked on refining the hair simulation, specifically looking into workflows to speed up the process of moving simulated hair between Maya files, since some of my cache files were larger than 1 GB last week. I don't have a ton of visual updates to show on this front, since it's mostly just messing around with caching setups and whatnot. I also spent some time to make some preview (non-simmed) hair grooms visible on Lila and Jon's rig files so that lighting artists can see how the hair looks as they work.
