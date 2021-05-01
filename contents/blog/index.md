@@ -6,6 +6,8 @@ banner: preview.png
 ---
 
 2021 ------------------------------------
+* [Week of 4/24-4/30](#4/24-4/30)
+* [Week of 4/17-4/23](#4/17-4/23)
 * [Week of 4/10-4/16](#4/10-4/16)
 * [Week of 4/3-4/9](#4/3-4/9)
 * [Week of 3/27-4/2](#3/27-4/2)
@@ -28,6 +30,12 @@ banner: preview.png
 * [Week of 10/10-10/16](#10/10-10/16)
 * [Week of 10/3-10/9](#10/3-10/9)
 * [Week of 9/26-10/2](#9/26-10/2)
+
+<h3 id="4/24-4/30" class="anchor">4/24-4/30</h3>
+
+This week, I went back and did some skinning adjustments for certain parts of Jon's joints which looked unusual when bent at certain angles. I also returned and did a new pass on the flowers in the desert using a MASH network rather than the previous, hand-placed flowers, which allowed us to put more flowers in the scene. I also helped record a few sound effects for the homework submission.
+
+![Flowers](images/flowers.png)
 
 <h3 id="4/17-4/23" class="anchor">4/17-4/23</h3>
 
