@@ -2,20 +2,21 @@
 extends layout
     
 block illustration
-  section.illustration(style="background-image: url('/cover.png')")
+  section.illustration(style="background-image: url('/banner.jpg')")
 block content
   div#article-grid
     each article in articles
-      article.article.intro
-        header
-          section.preview 
-            a(href=article.url) 
-              img(src=article.url+"preview.png")
-        section.content
-          h2
-            a(href=article.url)= article.title
-          if article.intro.length > 0
-            != typogr(article.intro).typogrify()
-          if article.hasMore
-            p.more
-              a(href=article.url) more
+      if article.view != 'none'
+        article.article.intro
+          header
+            section.preview 
+              a(href=article.url) 
+                img(src=article.url+"preview.png")
+          section.content
+            h2
+              a(href=article.url)= article.title
+            if article.intro.length > 0
+              != typogr(article.intro).typogrify()
+            if article.hasMore
+              p.more  
+                a(href=article.url) more

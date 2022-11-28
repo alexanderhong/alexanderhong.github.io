@@ -3,6 +3,7 @@ title: Production - "Powered Up"
 id: 3
 template: article.pug
 banner: preview.png
+view: none
 ---
 
 I worked on preproduction and rigging for this 3D animated short.

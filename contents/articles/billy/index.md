@@ -3,6 +3,7 @@ title: Character TD - Billy
 id: 5
 template: article.pug
 banner: preview.png
+view: none
 ---
 
 A human character model and rig for the short "Time Less."

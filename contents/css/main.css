@@ -19,9 +19,8 @@ body {
   overflow: hidden;
   background-attachment: fixed;
   background-position-x: center;
-  background-position-y: 80px !important;
+  background-position-y: 60px !important;
   background-repeat: repeat-x;
-  background-size: auto 400px;
 }
 
 .content-wrap {
@@ -525,9 +524,6 @@ code.lang-markdown .bullet {
     font-size: 11pt;
   }
 
-  .illustration {
-    background-position-y: 110px !important;
-  }
   .header {
     /* margin: 1em 0; */
     height: 110px;

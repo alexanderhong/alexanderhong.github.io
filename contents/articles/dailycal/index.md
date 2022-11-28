@@ -1,14 +1,14 @@
 ---
 title: The Daily Californian
 template: article.pug
-id: 3
+id: 2
 image: preview.png
 ---
 
 Assorted illustrations, graphics and designs from my work at The Daily Californian.
 <span class="more"></span>  
 
-Since 2018, I've produced over a hundred illustrations and overseen the design for over a hundred print papers.
+From 2018 to 2021, I've produced over a hundred illustrations and overseen the design for over a hundred print papers.
 <!--
 * [Illustrations](#illustration)
 * [Layout](#layout) -->

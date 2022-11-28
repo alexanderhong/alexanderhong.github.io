@@ -7,6 +7,7 @@ html(lang='en')
       meta(charset='utf-8')
       meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
       meta(name='viewport', content='width=device-width')
+      meta(name='keywords', content='Alex Hong, animation, technical director, Los Angeles')
       title
         block title
           = locals.name
@@ -18,22 +19,20 @@ html(lang='en')
         block header
           div.logo
             h1
-              a(href=locals.url)= locals.name
+              a(href=locals.url)= 'Alexander Hong'
           block navbar
             nav.navbar
               li
                 a(href=locals.url)= 'HOME' 
+              li 
+                a(href='/about')= 'ABOUT'
               li
-                a(href='/blog')= 'BLOG'  
-              li
-                a(href='/resume')= 'RESUME'  
-              li
-                a(href='mailto:alexanderhong@berkeley.edu')= 'CONTACT' 
+                a(href='mailto:alexandervhong@gmail.com')= 'CONTACT' 
     div#content
       block illustration
       div.content-wrap
         block content
-          h2 Welcome to zombocom!
+          h2 Hello world!
     footer
       div.content-wrap
         block footer
@@ -41,4 +40,3 @@ html(lang='en')
             !=contents['about.md'].html
           section.copy
             p &copy; #{ new Date().getFullYear() } #{ locals.owner }
-              //- please leave the "powered by" if you use the design
