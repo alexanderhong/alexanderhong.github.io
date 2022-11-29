@@ -3,8 +3,7 @@ view: none
 ---
 
 This is my portfolio website. It currently reflects only the work I did during
-college (ending in 2021), and it will probably stay that way until I'm looking
-for work again.
+college (ending in 2021).
 
 The site is designed by me and built in Wintersmith, using some of the source code
 of the Wintersmith blog template. You can view the repository [here][1].

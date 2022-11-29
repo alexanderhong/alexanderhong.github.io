@@ -521,6 +521,7 @@ code.lang-markdown .bullet {
 
   .article.intro .content p {
     hyphens: auto;
+    -webkit-hyphens: auto;
     font-size: 11pt;
   }
 
